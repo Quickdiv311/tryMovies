@@ -1,0 +1,23 @@
+
+.card
+{
+    padding: 10px 5px;
+    align-items: center;
+    width: 400px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.row
+{
+    margin: 60px 370px;
+}
+
+.card img
+{
+    transition: 0.3s ease-in-out;
+}
+
+.card img:hover{
+  transform: scale(1.05);
+}
