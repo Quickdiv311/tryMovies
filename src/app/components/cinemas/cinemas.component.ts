@@ -34,7 +34,7 @@ public cinemas: any =  [
     ]
   },
   {
-    movie: "House of the Dragon",
+    movie: "Purge of Kingdoms",
     theatres: [
       {
         name: "Inox",

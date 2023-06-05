@@ -1,9 +1,21 @@
+.cont
+{
+background-image: url('https://e0.pxfuel.com/wallpapers/559/84/desktop-wallpaper-movie-theater-background-movie-cinema.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: absolute;
+top: 60px;
+width: 100vw;
+bottom: 0;
+}
 
 .movie-name
 {
     padding-left: 230px;
     padding-top: 50px;
     padding-bottom: 20px;
+    color: white;
 }
 
 .theatres

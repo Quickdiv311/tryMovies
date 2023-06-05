@@ -1,19 +1,21 @@
 
-<div class="movie-name">
-    <h3>{{movieName}}</h3>
-</div>
-<div class="cinemas" *ngFor="let cinema of cinemas">
-    <div class="cinema" *ngIf="movieName == cinema.movie">
-       <div class="theatres" *ngFor="let theatre of cinema.theatres">
-        <h5>{{theatre.name}}</h5>
-        <div class="time">
-            <div class="timings" *ngFor="let timing of theatre.timings">
-                <div class="fa-stack fa-2xl">
-                    <i class="fa-solid fa-ticket-simple fa-xl"></i>
-                <i class="fa-duotone fa-text fa-2xs">{{timing}}</i>
+<div class="cont">
+    <div class="movie-name">
+        <h1>{{movieName}}</h1>
+    </div>
+    <div class="cinemas" *ngFor="let cinema of cinemas">
+        <div class="cinema" *ngIf="movieName == cinema.movie">
+           <div class="theatres" *ngFor="let theatre of cinema.theatres">
+            <h5>{{theatre.name}}</h5>
+            <div class="time">
+                <div class="timings" *ngFor="let timing of theatre.timings">
+                    <div class="fa-stack fa-2xl">
+                        <i class="fa-solid fa-ticket-simple fa-xl"></i>
+                    <i class="fa-duotone fa-text fa-2xs">{{timing}}</i>
+                    </div>
                 </div>
             </div>
+           </div>
         </div>
-       </div>
     </div>
 </div>
